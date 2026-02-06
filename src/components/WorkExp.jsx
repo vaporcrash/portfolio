@@ -1,4 +1,5 @@
 import React from 'react';
+import {Animator,ScrollPage,Sticky,batch,MoveIn, Fade} from 'react-scroll-motion';
 
 function WorkExp() {
   return <ScrollPage className='Even'>
