@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import {ScrollContainer} from 'react-scroll-motion';
 import SectionThree from './components/SectionThree';
 import About from './components/About';
+import WorkExp from './components/WorkExp';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <ScrollContainer>
       <TopSection />
       <About />
+      <WorkExp />
       <SectionOne />
       <SectionTwo />
       <SectionThree />
