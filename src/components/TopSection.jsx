@@ -8,7 +8,7 @@ function TopSection({secOne}){
     <div className='Top-section'>
     <Animator animation={Sticky(50,50)}>
       <p>Hey! It's nice to meet you!</p>
-      <p>I'm Sharvan, a Fullstack developer with a passion for neat design and clean code.</p>
+      <p>I'm Sharvan, a Software Engineer with a passion for neat design and clean code.</p>
     </Animator>
     <Animator animation={Sticky(50,90)}>
       <p>Scroll to learn more!</p>
