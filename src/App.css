@@ -21,10 +21,35 @@ html{
   text-align: center;
 }
 
+.tubes-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tubes-background p {
+  text-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.tubes-background .typing-text {
+  text-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
 p{
   font-size: calc(10px + 2vmin);
   animation: Welcome-fade-in 1.5s linear;
   text-align: center;
+}
+
+.typing-text {
+  font-size: calc(12px + 2vmin);
+  font-weight: bold;
+  color: #ffffff;
+  min-height: 1.5em;
+  display: inline-block;
+  margin: 0.5em 0;
 }
 
 img{
@@ -57,6 +82,31 @@ img{
 .Web3-text{
   width: 37vw;
   text-align: center;
+}
+
+/* work experience card */
+.work-card {
+  background: rgba(255,255,255,0.9);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.work-card h3 {
+  margin-bottom: 0.5em;
+  color: var(--color-accent);
+}
+
+.work-card ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.work-card ul li {
+  margin-bottom: 0.6em;
 }
 
 .about-me{
@@ -165,10 +215,12 @@ a.jumps:not(:hover){
   font-size: calc(10px + 2vmin);
   font-weight: bold;
   text-align: center;
+  margin: 0.3em 0;
 }
 
 #SkillPageTitle{
   font-size: calc(10px + 5vmin);
+  margin: 0.2em 0; /* tighter spacing between titles */
 }
 .Skills{
   text-align: center;
