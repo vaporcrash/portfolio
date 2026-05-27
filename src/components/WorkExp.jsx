@@ -10,9 +10,9 @@ function WorkExp() {
         <Animator animation={batch(MoveIn(-700,0),Fade(0,1),Sticky(30,55))}>
             <div className='Web3-text'>
             <p className='Skills-title'>OneWAN Deployment</p>
-            <p className='Skills'>Worked on onboarding Cisco and Arista devices to Microsoft Azure's SDWAN</p>
+            <p className='Skills'>Worked on onboarding Cisco and Arista devices to Microsoft Azure's SDWAN, with 100+ sites onboarded across NA, EMEA, and APAC</p>
             <p className='Skills'>Worked extensively with Powershell scripts to automate device configuration and deployment rollout</p>
-            <p className='Skills'>Worked with storage and database solutions like Kusto and Git to story and query network and device state information</p>
+            <p className='Skills'>Worked with storage and database solutions like Kusto and Git to store and query network and device state information</p>
             </div>
         </Animator>
         <Animator animation={batch(MoveIn(700,0),Fade(0,1),Sticky(70,55))}>
